@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mt-2 {
+  margin-top: 1em;
+}
+.mt-1 {
+  margin-top: 0.5em;
+}
+.primary-button {
+  padding: 8px;
+  background-color: #2158ca;
+  color: #fff;
+  border: 2px solid #2158ca;
+  border-radius: 2px;
+  font-weight: 700;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.secondary-button {
+  padding: 8px;
+  color: #2158ca;
+  border: 2px solid #2158ca;
+  border-radius: 2px;
+  background-color: #fff;
+  font-weight: 700;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.w-100 {
+  width: 100%;
+}
+.d-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+#root,
+.App {
+  height: 100vh;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.otp-input {
+  border: none;
+  border-bottom: 2px solid #9c9d9e;
+  width: 35px;
+  margin: 0px 20px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  &:focus-visible {
+    outline: none;
+    border-bottom-color: #2158ca;
+  }
+  &.error-input {
+    border-bottom-color: #ff3333;
+  }
+}

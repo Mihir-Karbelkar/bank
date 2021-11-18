@@ -1,0 +1,14 @@
+.login-form {
+  display: inline-block;
+  .form-label {
+    color: #9c9d9e;
+  }
+  .form-input {
+    padding: 4px;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

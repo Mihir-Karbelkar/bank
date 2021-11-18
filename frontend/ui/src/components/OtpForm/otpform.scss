@@ -1,0 +1,30 @@
+.otp-form {
+  text-align: center;
+  .otp-form-title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .otp-form-subtext {
+    margin-top: 20px;
+    color: #606061;
+  }
+  .otp-footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    .info-text {
+      color: #606061;
+      font-size: 14px;
+      a {
+        color: blue;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+  .error {
+    color: #ff3333;
+  }
+  width: 400px;
+}
